@@ -87,11 +87,11 @@ listCards.forEach(function(value , key){
   if(value != null) {
     let newDiv = document.createElement('li');
     newDiv.innerHTML = `
-    <div>
+    <div class="plat">
 
         <img src="./image/${value.image}">
         <div> ${value.name} </div>
-        <div> ${value.price.toLocaleString('en-US')}</div>
+        <div> ${value.price.toLocaleString('en-US')}€</div>
         
         <button onclick="changeQuantity(${key}, ${value.quantity - 1} )"> -</button> 
         <span> ${value.quantity} </span>

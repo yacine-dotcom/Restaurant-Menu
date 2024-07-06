@@ -130,8 +130,7 @@ header .shopping span {
 
   grid-template-rows: 120px repeat(3, 1fr);
 }
-
-.listCard div {
+.card .listCard .plat {
   gap: 1rem;
   width: 100%;
   display: flex;
@@ -139,7 +138,7 @@ header .shopping span {
   align-items: center;
 }
 
-.listCard div img {
-  width: 100%;
+.card .listCard .plat img {
+  width: 24%;
   text-align: start;
 }
